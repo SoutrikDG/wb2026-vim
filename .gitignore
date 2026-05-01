@@ -1,0 +1,16 @@
+﻿.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+data/raw/
+data/interim/
+*.parquet
+*.csv
+!data/external/events.csv
+!data/external/bengal_surname_lookup.csv
+.mlflow/
+mlruns/
+*.egg-info/
+dist/
+.ipynb_checkpoints/
